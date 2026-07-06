@@ -1,0 +1,9 @@
+crewai==0.28.8
+langchain-google-genai
+langchain-community
+chromadb
+tavily-python
+streamlit
+python-dotenv
+fpdf2
+sentence-transformers
