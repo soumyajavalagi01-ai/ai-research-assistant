@@ -83,7 +83,7 @@ if search_btn:
                 pdf.cell(0, 10, f"Research Report: {topic}", ln=True)
                 pdf.set_font("Arial", "", 10)
                 pdf.cell(0, 8, f"Generated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}", ln=True)
-                pdf.cell(0, 8, "Powered by: CrewAI + Google Gemini + ChromaDB RAG", ln=True)
+                pdf.cell(0, 8, "Powered by: CrewAI + Groq (LLaMA 3.3) + ChromaDB RAG", ln=True)
                 pdf.ln(5)
                 pdf.set_font("Arial", "", 11)
                 clean_report = result["report"].encode("latin-1", "replace").decode("latin-1")
