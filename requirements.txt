@@ -4,8 +4,9 @@ langchain-community==0.0.38
 langchain-core==0.1.53
 langsmith==0.1.147
 chromadb==0.4.24
-tavily-python
-streamlit
+tavily-python==0.3.3
+streamlit==1.37.0
 python-dotenv==1.0.0
-fpdf2
-groq
+fpdf2==2.7.9
+groq==0.37.1
+tiktoken==0.5.2
